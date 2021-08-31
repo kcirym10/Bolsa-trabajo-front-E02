@@ -31,12 +31,12 @@ Aplicación para conectar a la fuerza laboral que es adulto mayor con empleadore
 
 ### Da team
 
-| Name                            | Email              | Role        |
-| ------------------------------- | ------------------ | ----------- |
-| Ricardo Marcelo Lozano Gil      | A01176405@itesm.mx | Development |
-| Luis Felipe Miranda Icazbalceta | A00820799@itesm.mx | Development |
-| David Acevedo Villarreal        | A01196678@itesm.mx | Development |
-| Aaron García Guzmán             | A01039597@itesm.mx | Development |
+| Name                              | Email              | Role        |
+| --------------------------------- | ------------------ | ----------- |
+| José Alejandro Myrick Asturias    | A00819666@itesm.mx | Development |
+| Guilherme Bittencourt de Borba    | A01194571@itesm.mx | Development |
+| Víctor Andrés Villarreal Grimaldo | A01039863@itesm.mx | Development |
+| Antonio de Jesús Hernández Ruíz   | A01382469@itesm.mx | Development |
 
 ### Technology Stack
 | Technology    | Version      |
