@@ -1,0 +1,23 @@
+[
+  {
+    "id": 4,
+    "date": "2020-05-20",
+    "company": "John Deere",
+    "position": "Contador",
+    "status": "Cerrado"
+  },
+  {
+    "id": 5,
+    "date": "2020-05-21",
+    "company": "Accenture",
+    "position": "Programador",
+    "status": "Cerrado"
+  },
+  {
+    "id": 6,
+    "date": "2020-05-22",
+    "company": "Wizeline",
+    "position": "RH",
+    "status": "Cerrado"
+  }
+]

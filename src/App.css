@@ -1,0 +1,24 @@
+.main-jumbotron { /* Sign in and sign up*/
+  /*background-color: #6b2565 !important;*/
+  background-color: black !important;
+  color: #ffffff;
+  border-radius: 0 !important;
+}
+
+.navbar {
+  background-color: #25274d !important;
+}
+
+.errorMessage {
+  color: red;
+}
+.signbtn {
+  width: 100%;
+}
+
+.backbtn {
+  background-image: url(https://image.flaticon.com/icons/svg/8/8764.svg);
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}

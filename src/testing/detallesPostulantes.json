@@ -1,0 +1,58 @@
+[
+  {
+    "userId": "pZmKDehcEdWE6xR3cU4cdgk7ynp1",
+    "enrollmentForm": {
+      "nombre": "Employee Test",
+      "fecha_de_nacimiento": "20/12/1963",
+      "lugar_de_nacimiento": "Monterrey",
+      "calle": "Eugenio Garza Sada #8132",
+      "municipio": "Monterrey",
+      "codigo_postal": "66766",
+      "telefono_casa": "+5219045874",
+      "telefono_celular": "+528112121212",
+      "secciones": {
+
+        "ultimo_ejemplo_o_actividad": {
+          "ultimo_periodo": "Ultimo año",
+          "empresa": "John Deere",
+          "puesto": "CEO",
+          "responsabilidad": ""
+        },
+
+        "actividad_deseada": {
+          "jornada_de_trabajo": "Parcial",
+          "funcion": "Operativa",
+          "capacitacion_o_entrenamiento": "Operativa",
+          "consultoria": "Ejecutiva",
+          "coaching": "Ejecutiva"
+        },
+
+        "nivel_de_estudios": {
+          "nivel_escolar": "Profesional",
+          "nombre_institucion": "ITESM",
+          "fecha_inicio": "20/08/1970",
+          "fecha_fin": "30/06/1975"
+        },
+
+        "comentarios": {
+          "porque_quieres_trabajo": "Porque necesito dinero"
+        },
+
+        "tus_habilidades_son": {
+          "habilidades": ["Hacer equipo", "Conciliador", "Innovador"]
+        },
+
+        "clasificacion_puesto" : {
+          "clasificacion": "Director General"
+        },
+
+        "aceptacion_politica" : {
+          "aceptacion" : true
+        }
+      }
+    },
+    "enrollmentMetadata": {
+      "createdAt": 1618622307
+    }
+  }
+]
