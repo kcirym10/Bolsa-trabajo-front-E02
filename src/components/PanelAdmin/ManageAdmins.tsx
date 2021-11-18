@@ -36,6 +36,7 @@ function ManageAdmins() {
 
             setAdmins(adminsAPI)
         }
+        /*/
         auth.onAuthStateChanged(async user => {
             if (user) {
                 await getAdminsFromAPI();
@@ -45,6 +46,7 @@ function ManageAdmins() {
             }
             setLoading(false);
         });
+        /*/
     }, [])
 
     const [adminEdit, setAdminEdit] = useState(0);

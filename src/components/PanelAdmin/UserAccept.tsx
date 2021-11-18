@@ -31,7 +31,7 @@ function UserAccept() {
             setInactiveUsers(inactiveUsersAPI);
             setActiveUsers(activeUsersAPI);
         }
-
+        /*/
         auth.onAuthStateChanged(async user => {
             if (user) {
                 await getUsersFromAPI();
@@ -41,6 +41,7 @@ function UserAccept() {
             }
             setLoading(false);
         })
+        /*/
     }, [])
 
     if (isLoading) {

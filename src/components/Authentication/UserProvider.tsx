@@ -9,6 +9,7 @@ function UserProvider(props: any) {
 
   // onMount
   useEffect(() => {
+    /*/
     // setObserver on authUser
     auth.onAuthStateChanged(async (authUser) => {
       const user_local: any = await getUserDocument(authUser);
@@ -23,7 +24,7 @@ function UserProvider(props: any) {
         localStorage.clear();
         return <Redirect to="/" />;
       }
-    });
+    });  /*/
   }, []);
 
   return <UserContext.Provider value={user}>{props.children}</UserContext.Provider>

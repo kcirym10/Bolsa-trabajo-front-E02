@@ -19,17 +19,19 @@ const firebaseConfig = {
     measurementId: process.env.REACT_APP_MEASUREMENT_ID,
   };
 
+/*/
 firebase.initializeApp(firebaseConfig);
+/*/
 // firebase.analytics();
 
-export const auth = firebase.auth();
-export const firestore = firebase.firestore();
-export const functions = firebase.functions();
-export const storage = firebase.storage();
+export const auth =  Object();
+export const firestore = Object();
+export const functions = Object();
+export const storage = Object();
 
-const provider = new firebase.auth.GoogleAuthProvider();
+const provider = Object();
 export const signInWithGoogle = () => {
-  auth.signInWithPopup(provider);
+  return;
 };
 
 interface userData {

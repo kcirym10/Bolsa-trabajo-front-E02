@@ -173,6 +173,7 @@ function UserDetail(props: UserDetailProps) {
                 setEnrollmentForm(enrollmentFormAPI)
             }
         }
+        /*/
         auth.onAuthStateChanged(async user => {
             if (user) {
                 await getEnrollmentFormFromAPI();
@@ -183,6 +184,7 @@ function UserDetail(props: UserDetailProps) {
 
             setLoading(false);
         })
+        /*/
     }, [])
 
     if (isLoading) {
