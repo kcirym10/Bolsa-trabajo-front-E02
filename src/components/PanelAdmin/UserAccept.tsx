@@ -44,7 +44,7 @@ function UserAccept() {
         /*/
     }, [])
 
-    if (isLoading) {
+    if (isLoading && false) { // LOADING BYPASS
         return (
             <React.Fragment>
                 <Jumbotron>
