@@ -2,11 +2,17 @@ import React, { createContext, useEffect, useState } from 'react';
 import { auth, getUserDocument } from '../../firebase';
 import { Redirect, useHistory } from 'react-router-dom';
 
-export const UserContext = createContext({user: null});
+const default_user = {email: "fake@email.com",
+          name: "Dummy Name",
+          type: "employee",
+          password: "password",
+          phoneNumber: "phoneNumber"};
+
+export const UserContext = createContext({user: default_user});
 
 function UserProvider(props: any) {
-  const [user, setUser] = useState({user: localStorage.user ? JSON.parse(localStorage.user) : null});
-
+  //const [user, setUser] = useState({user: localStorage.user ? JSON.parse(localStorage.user) : null});
+  let user = {user: default_user};
   // onMount
   useEffect(() => {
     /*/

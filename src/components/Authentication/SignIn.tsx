@@ -12,6 +12,8 @@ function SignIn() {
   const signInWithEmailAndPasswordHandler = async ({ email, password }: any) => {
     try {
       await authenticationService.login({email, password});
+      alert("LOGGING IN");
+      history.push('/home'); // redirect to home
     } catch (error) {
       Swal.fire(createErrorOptions(error));
     }
